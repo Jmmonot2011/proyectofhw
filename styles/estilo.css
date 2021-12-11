@@ -1,0 +1,125 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  
+  background: url("../Imagenes/fondo1.png");
+  background-size:cover;
+  margin:0px;
+}
+/* Style the header */
+
+.grid-container {
+  display: flex;
+  margin: left 0;
+  float: left;
+  width: 1000px;
+}
+.grid-container > div {
+  display: inline-flex;
+  color: #ffffff;
+  float: left;  
+  text-align: center;
+  font-size: 50px;
+ width:unset;
+}
+
+header {
+  display:flex;
+  width: 100%;
+  background-color:rgb(27, 27, 27)    ;
+  padding: 10px;
+  text-align: left;
+
+}
+
+nav {
+  margin: 0px;
+  float: left;
+  background: #ccc;
+  padding: 5px;
+}
+
+/* Stilo de la barra menu  */
+ul {
+  position:sticky ;
+  padding-left: 0px;
+  margin-top: 0px;
+  margin-bottom: 10px;
+  list-style-type: none;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  display: flex;
+  float: left;
+}
+li a{
+  margin:0px;
+  display: block;
+  color: white;
+  padding: 15px;
+  text-decoration: none;
+}
+button{
+  width: 400px;
+}
+
+li a:hover {
+  margin: 0px;
+  background-color:  #1271c9;
+  color: black;
+}
+
+ul li ul{
+  display:none;
+}
+
+article {
+  color: aliceblue;
+  
+  float: left;
+  padding: 5px;
+  width: 100%;
+  height: 100%;
+  background-color: #d0d8e7;
+ }
+
+/* Clear floats after the columns */
+section:after {
+  
+  content: "";
+  display: flex;
+  clear: both;
+}
+
+/* Style the footer */
+footer {
+  
+  background-color:  #090d15;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+H1{
+  width:100%;
+  color: aliceblue;
+  text-align: center;
+  font-size: 40px;
+  font-family:fantasy;
+  margin: 0px;
+
+
+}
+
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+    margin: 0px;
+  }
+}
+
