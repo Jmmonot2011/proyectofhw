@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="es", style="height:100%;">
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href= "styles/estilo.css">
+<title>Lenguaje de Marcas</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<style type="text/css">
+  #areaContador {
+      font-size: 25px;
+      font-weight: bold;
+      font-family: impact;
+      margin: 5px;
+  }
+</style>
+<script>
+$(document).ready(function(){
+
+  $("article").hide()
+  $("#inicio").show();
+  
+  $("#menuseguridad").click(function(){
+    $("article").hide()
+    $("#seguridad").show();
+  });
+  $("#menuofimática").click(function(){
+    $("article").hide()
+    $("#ofimática").show();
+  });
+  $("#menurecuperación").click(function(){
+    $("article").hide()
+    $("#recuperación").show();
+  });
+  $("#menuportable").click(function(){
+    $("article").hide()
+    $("#portable").show();
+  });
+  $("#menuinfo").click(function(){
+    $("article").hide()
+    $("#info").show();
+  });
+  $("#menuinicio").click(function(){
+    $("article").hide()
+    $("#inicio").show();
+  });
+});
+</script>
+</head>
+<body>
+
+<header>
+  <div class="grid-container">
+    <div>Tutoriales de Ofimática</div> 
+    <div><img src="../V2/Imagenes/logo.jpg" style="width:60px;height:60px;margin-left:20px;"></div> 
+  </div> 
+</header>
+
+<section>
+  
+  <ul>
+    <li id="menuinicio"><a href="#inicio">Inicio</a></li>
+    <li id="menuseguridad"><a href="#seguridad">Seguridad</a></li>
+    <li id="menuofimática"><a href="#ofimática">Ofimática</a></li>
+    <li id="menurecuperación"><a href="#recuperación">Recuperación y Mantenimiento</a></li>
+    <li id="menuportable"><a href="#portable">Portable</a></li>
+  </ul>
+
+  <H1>"Cuanto más sabes, más te das cuenta de que no sabes nada"
+    -- Sócrates
+  </H1>
+
+  <article id="inicio">
+    <iframe  style="width:100%;height:300px; border:none"src="pages/inicio.html"></iframe>
+  </article>
+  <article id="seguridad">
+    <iframe  style="width:100%;height: 650px; border:none"src="pages/Seguridad.html"></iframe>
+  </article>
+  <article id="ofimática">
+    <iframe   style="width:100%; height:650px; border:none"src="pages/ofimática.html"></iframe>
+  </article>
+  <article id="recuperación">
+    <iframe style="width:100%;height: 650px; border:none"src="pages/recuperación.html"></iframe>
+  </article>
+  <article id="portable">
+    <iframe style="width:100%;height: 650px; border:none"src="pages/portable.html"></iframe>
+  </article>
+</section>
+
+<footer>
+  <button id="botonClick">Contador de CLIKS</button>
+        <p id="areaContador"></p>
+        <script type="text/javascript">
+            var botonElement = document.getElementById("botonClick");
+            var pElement = document.getElementById("areaContador");
+            var contador = 0;
+            botonElement.onclick = function () {
+                contador++;
+                pElement.textContent = contador;
+            }
+        </script>
+</footer>
+
+</body>
+</html>
