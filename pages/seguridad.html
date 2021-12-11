@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<link rel="stylesheet" href= "../styles/estilop.css">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script>
+    $(document).ready(function(){
+    
+      $("article").hide()
+      /*$("inicio").show();*/
+      
+      $("#linkavg").click(function(){
+      $("article").hide();
+      $("#inicio").hide();
+      $("#avg").show();
+      });
+
+      $("#linkavira").click(function(){
+      $("article").hide();
+      $("#inicio").hide();
+      $("#avira").show();
+      });
+
+      $("#linkclamav").click(function(){
+      $("article").hide();
+      $("#inicio").hide();
+      $("#clamav").show();
+      });
+
+      $("#linkseguridad").click(function(){
+      $("article").hide();
+      $("#inicio").show();
+      });
+
+
+    });
+    </script>
+</head>
+<body>
+    <h1 id="linkseguridad"><a href="#inicio">Inicio Seguridad</a></h1>
+    <div id="inicio">
+
+        <section>
+        <div class="introducción">
+            En esta sección se mostrarán las aplicaciones de Seguridad disponibles tanto para windows y como para ubunto y como descargarlas e instalarlas siguiendo una serie de tutoriales
+
+        </div>
+        <header>Windows</header>
+
+        <div class="contenido">
+            <div class="office1", id="linkavg"><h3><a href="#avg">AVG</a></h3></div>
+            <div class="office1"> Es uno de los mejores antivirus del mercado. Es muy potente, presenta una interfaz bien diseñada y dispone de una amplia variedad de funciones.</div>
+            <div class="office2"> <img style= height:200px, height=100px, src=../Imagenes/avg.jpg > </img> </div>
+        </div>
+    
+        <div class="contenido">
+            <div class="office1", id="linkavira"><h3><a href="#avira">Avira</a></h3></div>
+            <div class="office1">Explora discos duros y extraíbles en busca de virus y también corre como un proceso de fondo, comprobando cada archivo abierto y cerrado.</div>
+            <div class="office2"> <img style= height:200px, height=100px, src=../Imagenes/avira.png > </img> </div>
+        </div>
+    
+        <header>Ubuntu</header>
+        <div class="contenido">
+            <div class="office1", id="linkclamav" ><h3><a href="#clamav">ClamAv</a></h3></div>
+            <div class="office1">   ClamAV es un software antivirus open source (de licencia GPL) para las plataformas Windows, GNU/Linux, BSD, Solaris, Mac OS X y otros sistemas operativos semejantes a Unix.</div>
+            <div class="office2"> <img style= height:200px, height=100px, src=../Imagenes/clamav.jpg > </img> </div>
+        </div>
+
+        <header>Comparativa</header>
+        <div class="contenido">
+            <div class="office1"><h3>AVG</h3></div>
+            <div class="office2"><h3>ClamAV</h3></div>
+            <div class="office1">  <img style= height:200px, height=100px, src=../Imagenes/avg.jpg > </img></div>
+            <div class="office2"><img style= height:200px, height=100px, src=../Imagenes/clamav.jpg > </img> </div>
+            <hr>
+            <div class="office1">•Windows 7, Windows XP, Windows Vista, Windows 8, Windows 8.1, Windows 10</div>
+            <div class="office2">•Windows 7 32/64, Windows 10 32/64 bits,UNIX, Ubuntu 18.04 (64bit, 32bit), ubuntu 20.04 (64bit)</div>
+            <hr>
+            <div class="office1">•Intel Pentium 1.5 GHz (o más rápido)</div>
+            <div class="office2">•Procesador de 2 GHz o más rápido</div>
+            <hr>
+            <div class="office1">•512 MB, 1 GB (Win XP - 512 MB, Others - 1 GB)</div>
+            <div class="office2">•1 GB o más de memoria RAM para 32 bits, 2 GB o más de memoria RAM para 64 bits. </div>
+            <hr>
+            <div class="office1">•Al menos 1400 MB disponibles en el disco duro</div>
+            <div class="office2">•Espacio disponible en disco duro de 5 GB o más</div>
+            
+        </div>
+
+    </div>
+    
+  
+    <article id="avg">
+        <iframe  style="width:100%;height: 565px; border:none"src="avg.html"></iframe>
+    </article>
+    <article id="avira">
+        <iframe  style="width:100%;height:565px; border:none" src="avira.html"></iframe>
+    </article>
+    <article id="clamav">
+        <iframe  style="width:100%;height:565px; border:none" src="clamav.html"></iframe>
+    </article>
+        
+      
+        
+       
+      </section>
+    
+
+
+
+</body>
+</html>

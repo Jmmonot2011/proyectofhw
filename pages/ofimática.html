@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<link rel="stylesheet" href= "../styles/estilop.css">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script>
+    $(document).ready(function(){
+    
+      $("article").hide()
+      /*$("inicio").show();*/
+      
+      $("#linkLibreoffice").click(function(){
+      $("article").hide();
+      $("#inicio").hide();
+      $("#Libreoffice").show();
+      });
+
+      $("#linkword").click(function(){
+      $("article").hide();
+      $("#inicio").hide();
+      $("#word").show();
+      });
+
+      $("#linkcalligra").click(function(){
+      $("article").hide();
+      $("#inicio").hide();
+      $("#calligra").show();
+      });
+
+      $("#linkofimatica").click(function(){
+      $("article").hide();
+      $("#inicio").show();
+      });
+
+
+    });
+    </script>
+</head>
+<body>
+    <h1 id="linkofimatica"><a href="#inicio">Inicio Ofimática</a></h1>
+    <div id="inicio">
+        <section>
+        <div class="introducción">
+            En esta sección se mostrarán las aplicaciones de ofimática de Windows y como descargarlas e instalarlas siguiendo una serie de tutoriales
+        </div>
+        <header>Windows</header>
+
+       
+    
+        <div class="contenido">
+            <div class="office1", id="linkword"><h3><a href="#word">Microsoft Word</a></h3></div>
+            <div class="office1">Microsoft Word es un programa informático orientado al procesamiento de textos. Fue creado por la empresa Microsoft, y viene integrado de manera predeterminada en el paquete ofimático denominado Microsoft Office.</div>
+            <div class="office2"> <img style= height:200px, height=100px, src=../Imagenes/word.jpg > </img> </div>
+        </div>
+        
+    
+        <header>Ubuntu-Windows</header>
+        <div class="contenido">
+            <div class="office1", id="linkLibreoffice"><h3><a href="#Libreoffice">Libreoffice</a></h3></div>
+            <div class="office1">  LibreOffice es un paquete de software de oficina libre y de código abierto desarrollado por The Document Foundation. </div>
+            <div class="office2"> <img style= height:200px, height=100px, src=../Imagenes/libre.png > </img> </div>
+        </div>
+
+        <header>Comparativa de requisitos</header>
+        <div class="contenido">
+            <div class="office1"><h3>Libreoffice</h3></div>
+            <div class="office2"><h3>Microsoft Word</h3></div>
+            <div class="office1">  <img style= height:200px, height=100px, src=../Imagenes/libre.png > </img></div>
+            <div class="office2"><img style= height:200px, height=100px, src=../Imagenes/word.jpg > </img> </div>
+            <hr>
+            <div class="office1">•Microsoft Windows 7 SP1, Windows 8, Windows Server 2012, Windows 10, Ubuntu 20.04(32/64)</div>
+            <div class="office2">•Windows Server 2008 32/64 bits, Windows 7 32/64 bits, Windows 8 32/64 bits o Windows 10</div>
+            <hr>
+            <div class="office1">•PC Pentium compatible (Pentium III, Athlon, aunque se recomienda un sistema más reciente)</div>
+            <div class="office2">•Procesador de 1 GHz o más rápido con el conjunto de instrucciones de SSE2. </div>
+            <hr>
+            <div class="office1">•256 MB de RAM (se recomiendan 512 MB de RAM)</div>
+            <div class="office2">•1 GB o más de memoria RAM para 32 bits, 2 GB o más de memoria RAM para 64 bits. </div>
+            <hr>
+            <div class="office1">•Al menos 1,5 GB disponibles en el disco duro</div>
+            <div class="office2">•Espacio disponible en disco duro de 3 GB o más</div>
+            <hr>
+            <div class="office1">•Resolución de por lo menos 1024*768 (se recomienda más alta), con al menos 256 colores.</div>
+            <div class="office2">•Resolución de pantalla de 1024 x 576 con Directx10. </div>
+        </div>
+
+
+
+
+
+    </div>
+  
+    <article id="Libreoffice">
+        <iframe  style="width:100%;height:565px; border:none"src="Libreoffice.html"></iframe>
+    </article>
+    <article id="word">
+        <iframe  style="width:100%;height:565px; border:none" src="word.html"></iframe>
+    </article>
+    
+        
+      
+        
+       
+      </section>
+    
+
+
+
+</body>
+</html>

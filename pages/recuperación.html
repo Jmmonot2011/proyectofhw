@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<link rel="stylesheet" href= "../styles/estilop.css">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script>
+    $(document).ready(function(){
+    
+      $("article").hide()
+      /*$("inicio").show();*/
+      
+      $("#linkdiskdrill").click(function(){
+      $("article").hide();
+      $("#inicio").hide();
+      $("#diskdrill").show();
+      });
+
+      $("#linkcleanmaster").click(function(){
+      $("article").hide();
+      $("#inicio").hide();
+      $("#cleanmaster").show();
+      });
+
+      $("#linktestdisk").click(function(){
+      $("article").hide();
+      $("#inicio").hide();
+      $("#testdisk").show();
+      });
+
+      $("#linkrecuperacion").click(function(){
+      $("article").hide();
+      $("#inicio").show();
+      });
+
+
+    });
+    </script>
+</head>
+<body>
+    <h1 id="linkrecuperacion"><a href="#inicio">Inicio Recuperación</a></h1>
+    <div id="inicio">
+        <section>
+        <div class="introducción">
+            En esta sección se mostrarán las aplicaciones de mantenimineto y recuperación de datos y como descargarlas e instalarlas siguiendo una serie de tutoriales
+
+        </div>
+        <header>MAC OS-Windows</header>
+
+        <div class="contenido">
+            <div class="office1", id="linkdiskdrill"><h3><a href="#diskdrill">DiskDrill</a></h3></div>
+            <div class="office1">  Disk Drill es un programa para la recuperación de datos eliminados, compatible tanto con ordenadores con Windows como con Mac OS </div>
+            <div class="office2"> <img style= height:300px, height=150px, src=../Imagenes/diskdrill.jpg > </img> </div>
+        </div>
+
+        <header>Ubuntu-Windows</header>
+        <div class="contenido">
+            <div class="office1", id="linktestdisk"><h3><a href="#testdisk">TestDisk</a></h3></div>
+            <div class="office1"> TestDisk es un poderoso software gratuito de recuperación de datos! Fue principalmente diseñado para ayudar a recuperar particiones perdidas y/o volver discos no booteables a booteables nuevamente cuando estos síntomas son causados por software con fallas, ciertos tipos de virus o error humano </div>
+            <div class="office2"> <img style= height:300px, height=150px, src=../Imagenes/testdisk.png > </img> </div>
+        </div>
+    
+  
+    </div>
+  
+    <article id="diskdrill">
+        <iframe  style="width:100%;height: 565px; border:none"src="diskdrill.html"></iframe>
+    </article>
+    <article id="testdisk">
+        <iframe  style="width:100%;height:565px; border:none" src="testdisk.html"></iframe>
+    </article>
+        
+      
+        
+       
+      </section>
+    
+
+
+
+</body>
+</html>
