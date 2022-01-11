@@ -2,32 +2,32 @@
 
 <feed xmlns="http://www.w3.org/2005/Atom" 
 	xml:lang="es" 
-	xml:base="https://estherostos.github.io/proyectofhw/">
+	xml:base="https://github.com/Jmmonot2011/proyectofhw/">
 
-	<id>https://estherostos.github.io/proyectofhw/</id>
+	<id>https://github.com/Jmmonot2011/proyectofhw/</id>
 
-	<title>Viajes y más atom</title>
+	<title>Ofimática atom</title>
 	<updated>2021-12-21T19:06:00+01:00</updated>
 
-	<link rel="alternate" href="https://estherostos.github.io/proyectofhw/atom.xml"/>
+	<link rel="alternate" href="https://github.com/Jmmonot2011/proyectofhw/edit/main/atom.xml"/>
 
 	<author>
-		<name>Esther Ostos Ostos</name>
-		<email>ososes_iesma20@iesmedinaazahara.es</email>
+		<name>Jorge Montes</name>
+		<email>mootjo_aliesma20@iesmedinaazahara.es</email>
 	</author>
 
-	<category term="Viajes ficticios"/>
+	<category term="Ofimática"/>
 
 	<contributor>
 		<name>otro Autor</name>
 		<email>otro@gmail.com</email>
 		<uri>https://www.linkedin.com/in/otro</uri>
 	</contributor>
-	<logo>viajes.jpg</logo>
+	<logo>atom.png</logo>
 
 
 	<entry>
-		<id>https://estherostos.github.io/proyectofhw/pages/londres.html</id>
+		<id>https://github.com/Jmmonot2011/proyectofhw/edit/main/pages/.html</id>
 		<title>Información sobre Londres</title>
 		<update>2021-02-12T18:30:00+01:00</update>
 		<author>
