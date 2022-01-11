@@ -27,15 +27,15 @@
 
 
 	<entry>
-		<id>https://github.com/Jmmonot2011/proyectofhw/edit/main/pages/.html</id>
-		<title>Información sobre Londres</title>
+		<id>https://github.com/Jmmonot2011/proyectofhw/edit/main/pages/ofimática.html</id>
+		<title>Aplicaciones Ofimática</title>
 		<update>2021-02-12T18:30:00+01:00</update>
 		<author>
-			<name>Esther Ostos Ostos</name>
-			<email>ososes_iesma20@iesmedinaazahara.es</email>
+			<name>Jorge Montes</name>
+			<email>mootjo_aliesma20@iesmedinaazahara.es</email>
 		</author>
-		<summary> En este artículo cutre encontraras casi ninguna información sobre Londres</summary>
-		<link rel="alternate" href="https://estherostos.github.io/proyectofhw/pages/londres.html"></link>
+		<summary> En este artículo cutre encontraras información sobre Ofimática</summary>
+		<link rel="alternate" href="https://github.com/Jmmonot2011/proyectofhw/edit/main/pages/ofimática.html"></link>
 	</entry>
 
 </feed>
