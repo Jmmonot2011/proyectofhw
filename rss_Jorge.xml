@@ -3,11 +3,11 @@
 	<channel>
 		<!--Prólogo-->
 		<title>Ofimática</title>
-		<link>https://estherostos.github.io/proyectofhw</link>
+		<link>https://jmmonot2011.github.io/proyectofhw</link>
 		<description>
-			Canal de noticias sobre viajes cutres
+			Canal de aplicaciones ofimáticas
 		</description>
-		<category>viajes/ciudades/ocio</category>
+		<category>Ofimática</category>
 		<copyright>1º ASIR - LMSGI</copyright>
 		<image>
 			<url>https://jmmonot2011.github.io/proyectofhw/Imagenes/logo.jpg</url>
