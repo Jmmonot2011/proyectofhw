@@ -21,15 +21,17 @@
 		<webMaster>jmmonot2011@gmail.com</webMaster>
 		
 		<!-- Noticias del canal -->
+		
+		<!-- Ofimática -->
 		<item>
-			<title>Ofimática</title>
-			<description>En este artículo encontrará información sobre Ofimática</description>
-			<link>https://jmmonot2011.github.io/proyectofhw/pages/ofimática.html</link>
+			<title>LibreOffice</title>
+			<description>En este artículo encontrará información sobre la aplicación de LibreOffice</description>
+			<link>https://jmmonot2011.github.io/proyectofhw/pages/Libreoffice.html</link>
 			<author>jmmonot2011@gmail.com</author>
 			<category>Ofimática</category>
 			<enclosure url="https://youtu.be/VupykmeN-xM"
 				type="video" length="32572719"/>
-			<pubDate>Sun, 05 Dec 2021 12:25:00 +0100</pubDate>
+			<pubDate>Mon, 01 Mar 2022 17:49:00 +0100</pubDate>
 		</item>
 		<item>
 			<title>word</title>
@@ -41,6 +43,94 @@
 				type="video" length="32572719"/>
 			<pubDate>Sun, 05 Dec 2021 12:25:00 +0100</pubDate>
 		</item>
+		<item>
+			<title>Calligra</title>
+			<description>En este artículo encontrará información sobre la aplicación de calligra>
+			<link>https://jmmonot2011.github.io/proyectofhw/pages/calligra.html</link>
+			<author>jmmonot2011@gmail.com</author>
+			<category>Ofimática</category>
+			<enclosure url="https://youtu.be/VupykmeN-xM"
+				type="video" length="32572719"/>
+			<pubDate>Mon, 01 Mar 2022 17:51:00 +0100</pubDate>
+		</item>
+		<!-- Seguridad -->
+		<item>
+			<title>AVG Antivirus</title>
+			<description>En este artículo encontrará información sobre la aplicación de AVG Antivirus>
+			<link>https://jmmonot2011.github.io/proyectofhw/pages/avg.html</link>
+			<author>jmmonot2011@gmail.com</author>
+			<category>Seguridad</category>
+			<enclosure url="https://youtu.be/VupykmeN-xM"
+				type="video" length="32572719"/>
+			<pubDate>Mon, 01 Mar 2022 17:50:00 +0100</pubDate>
+		</item>
+		<item>
+			<title>Avira</title>
+			<description>En este artículo encontrará información sobre la aplicación de Avira>
+			<link>https://jmmonot2011.github.io/proyectofhw/pages/avira.html</link>
+			<author>jmmonot2011@gmail.com</author>
+			<category>Seguridad</category>
+			<enclosure url="https://youtu.be/VupykmeN-xM"
+				type="video" length="32572719"/>
+			<pubDate>Mon, 01 Mar 2022 17:51:00 +0100</pubDate>
+		</item>
+		
+		<item>
+			<title>ClamAv</title>
+			<description>En este artículo encontrará información sobre la aplicación de ClamAv>
+			<link>https://jmmonot2011.github.io/proyectofhw/pages/clamav.html</link>
+			<author>jmmonot2011@gmail.com</author>
+			<category>Seguridad</category>
+			<enclosure url="https://youtu.be/VupykmeN-xM"
+				type="video" length="32572719"/>
+			<pubDate>Mon, 01 Mar 2022 17:56:00 +0100</pubDate>
+		</item>
+			
+		<!-- Recuperación -->
+		
+		<item>
+			<title>DiskDrill</title>
+			<description>En este artículo encontrará información sobre la aplicación de DiskDrill>
+			<link>https://jmmonot2011.github.io/proyectofhw/pages/diskdrill.html</link>
+			<author>jmmonot2011@gmail.com</author>
+			<category>Recuperación</category>
+			<enclosure url="https://youtu.be/VupykmeN-xM"
+				type="video" length="32572719"/>
+			<pubDate>Mon, 01 Mar 2022 17:58:00 +0100</pubDate>
+		</item>
+		<item>
+			<title>TestDisk</title>
+			<description>En este artículo encontrará información sobre TestDisk>
+			<link>https://jmmonot2011.github.io/proyectofhw/pages/testdisk.html</link>
+			<author>jmmonot2011@gmail.com</author>
+			<category>Recuperación</category>
+			<enclosure url="https://youtu.be/VupykmeN-xM"
+				type="video" length="32572719"/>
+			<pubDate>Mon, 01 Mar 2022 18:01:00 +0100</pubDate>
+		</item>
+		<!-- Portable -->
+		<item>
+			<title>Opera</title>
+			<description>En este artículo encontrará información sobre el navegador Opera>
+			<link>https://jmmonot2011.github.io/proyectofhw/pages/opera.html</link>
+			<author>jmmonot2011@gmail.com</author>
+			<category>Portable</category>
+			<enclosure url="https://youtu.be/VupykmeN-xM"
+				type="video" length="32572719"/>
+			<pubDate>Mon, 01 Mar 2022 17:58:00 +0100</pubDate>
+		</item>
+		<item>
+			<title>LibreOffice Portable</title>
+			<description>En este artículo encontrará información sobre el LibreOffice Portable>
+			<link>https://jmmonot2011.github.io/proyectofhw/pages/portablelibre.html</link>
+			<author>jmmonot2011@gmail.com</author>
+			<category>Portable</category>
+			<enclosure url="https://youtu.be/VupykmeN-xM"
+				type="video" length="32572719"/>
+			<pubDate>Mon, 01 Mar 2022 18:00:00 +0100</pubDate>
+		</item>
+		
+		<!-- Clonezilla -->		
 	
 	</channel>
 </rss>
