@@ -25,7 +25,8 @@
 	</contributor>
 	<logo>atom.png</logo>
 
-
+<!--Ofomatica-->
+	
 	<entry>
 		<id>https://github.com/Jmmonot2011/proyectofhw/edit/main/pages/ofimática.html</id>
 		<title>Word</title>
@@ -37,5 +38,99 @@
 		<summary> En este artículo cutre encontraras información sobre word</summary>
 		<link rel="alternate">https://jmmonot2011.github.io/proyectofhw/pages/word.html</link>
 	</entry>
-
+	
+	<entry>
+		<id>https://github.com/Jmmonot2011/proyectofhw/edit/main/pages/ofimática.html</id>
+		<title>LibreOffice</title>
+		<update>2022-01-03T18:30:00+01:00</update>
+		<author>
+			<name>Jorge Montes</name>
+			<email>mootjo_aliesma20@iesmedinaazahara.es</email>
+		</author>
+		<summary> En este artículo cutre encontraras información sobre LibreOffice</summary>
+		<link rel="alternate">https://jmmonot2011.github.io/proyectofhw/pages/Libreoffice.html</link>
+	</entry>
+<!--Seguridad-->
+	<entry>
+		<id>https://github.com/Jmmonot2011/proyectofhw/edit/main/pages/seguridad.html</id>
+		<title>AVG Antivirus</title>
+		<update>2022-01-03T18:30:00+01:00</update>
+		<author>
+			<name>Jorge Montes</name>
+			<email>mootjo_aliesma20@iesmedinaazahara.es</email>
+		</author>
+		<summary> En este artículo cutre encontraras información sobre Avg Antivirus</summary>
+		<link rel="alternate">https://jmmonot2011.github.io/proyectofhw/pages/avg.html</link>
+	</entry>
+	<entry>
+		<id>https://github.com/Jmmonot2011/proyectofhw/edit/main/pages/seguridad.html</id>
+		<title>Avira</title>
+		<update>2022-01-03T18:30:00+01:00</update>
+		<author>
+			<name>Jorge Montes</name>
+			<email>mootjo_aliesma20@iesmedinaazahara.es</email>
+		</author>
+		<summary> En este artículo cutre encontraras información sobre Avira</summary>
+		<link rel="alternate">https://jmmonot2011.github.io/proyectofhw/pages/avira.html</link>
+	</entry>
+	<entry>
+		<id>https://github.com/Jmmonot2011/proyectofhw/edit/main/pages/seguridad.html</id>
+		<title>ClamAv</title>
+		<update>2022-01-03T18:30:00+01:00</update>
+		<author>
+			<name>Jorge Montes</name>
+			<email>mootjo_aliesma20@iesmedinaazahara.es</email>
+		</author>
+		<summary> En este artículo cutre encontraras información sobre ClamAv</summary>
+		<link rel="alternate">https://jmmonot2011.github.io/proyectofhw/pages/clamav.html</link>
+	</entry>
+<!--Recuperacion-->
+	<entry>
+		<id>https://github.com/Jmmonot2011/proyectofhw/edit/main/pages/recuperación.html</id>
+		<title>DiskDrill</title>
+		<update>2022-01-03T18:30:00+01:00</update>
+		<author>
+			<name>Jorge Montes</name>
+			<email>mootjo_aliesma20@iesmedinaazahara.es</email>
+		</author>
+		<summary> En este artículo cutre encontraras información sobre DiskDrill</summary>
+		<link rel="alternate">https://jmmonot2011.github.io/proyectofhw/pages/diskdrill.html</link>
+	</entry>
+	<entry>
+		<id>https://github.com/Jmmonot2011/proyectofhw/edit/main/pages/recuperación.html</id>
+		<title>TestDisk</title>
+		<update>2022-01-03T18:30:00+01:00</update>
+		<author>
+			<name>Jorge Montes</name>
+			<email>mootjo_aliesma20@iesmedinaazahara.es</email>
+		</author>
+		<summary> En este artículo cutre encontraras información sobre TestDisk</summary>
+		<link rel="alternate">https://jmmonot2011.github.io/proyectofhw/pages/testdisk.html</link>
+	</entry>
+<!--Portable-->
+	<entry>
+		<id>https://github.com/Jmmonot2011/proyectofhw/edit/main/pages/portable.html</id>
+		<title>Opera Portable</title>
+		<update>2022-01-03T18:30:00+01:00</update>
+		<author>
+			<name>Jorge Montes</name>
+			<email>mootjo_aliesma20@iesmedinaazahara.es</email>
+		</author>
+		<summary> En este artículo cutre encontraras información sobre Opera Portable</summary>
+		<link rel="alternate">https://jmmonot2011.github.io/proyectofhw/pages/opera.html</link>
+	</entry>
+	<entry>
+		<id>https://github.com/Jmmonot2011/proyectofhw/edit/main/pages/portable.html</id>
+		<title>LibreOffice Portable</title>
+		<update>2022-01-03T18:30:00+01:00</update>
+		<author>
+			<name>Jorge Montes</name>
+			<email>mootjo_aliesma20@iesmedinaazahara.es</email>
+		</author>
+		<summary> En este artículo cutre encontraras información sobre LibreOffice Portable</summary>
+		<link rel="alternate">https://jmmonot2011.github.io/proyectofhw/pages/portablelibre.html</link>
+	</entry>
+<!-- Clonezilla -->
+	
+	
 </feed>
