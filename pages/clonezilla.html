@@ -1,1 +1,90 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<link rel="stylesheet" href= "../styles/estilop.css">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script>
+    $(document).ready(function(){
+    
+      $("article").hide()
+      /*$("inicio").show();*/
+      
+      $("#linkclonezilla1").click(function(){
+      $("article").hide();
+      $("#inicio").hide();
+      $("#clonezilla").show();
+      });
 
+      $("#linklibreoffice").click(function(){
+      $("article").hide();
+      $("#inicio").hide();
+      $("#portablelibre").show();
+      });
+
+
+      $("#linkclonezilla").click(function(){
+      $("article").hide();
+      $("#inicio").show();
+      });
+
+
+    });
+    </script>
+</head>
+<body>
+    <h1 id="linkportable"><a href="#inicio">Inicio Clonezilla</a></h1>
+    <div id="inicio">
+        <section>
+        <div class="introducción">
+            Un software portátil es una versión de una aplicación que está comprimida para su uso directo desde dispositivos de almacenamiento portátiles, como una memoria USB. Puedes usarlo en computadores en los que no se te permite instalar programas (por ejemplo, en PC públicos). Al usar un software portátil, no dejas ningún archivo de configuración ni otros datos en el computador.
+
+        </div>
+        <header>Recuperacion de imagen clonezilla</header>
+
+        <div class="contenido">
+            <div class="office1", id="linclonezilla1"><h3><a href="#clonezilla1">Creación y Recuperación de imagenes</a></h3></div>
+            <div class="office1"> Con Opera Portable, puedes ejecutar el navegador desde una memoria USB en cualquier computador con Windows. </div>
+            <div class="office2"> <img style= height:200px, height=100px, src=../Imagenes/opera1.jpg > </img> </div>
+        </div>
+    
+        <header>Ubuntu-Windows</header>
+        <div class="contenido">
+            <div class="office1", id="linkportablelibre"><h3><a href="#portablelibre">Libreoffice Portable</a></h3></div>
+            <div class="office1">   Esta aplicación es de la más famosa </div>
+            <div class="office2"> <img style= height:200px, height=100px, src=../Imagenes/libre.png > </img> </div>
+        </div>
+        
+        <header>Clonezilla</header>
+        <div class="contenido">
+            <div class="office1"><h3>Libreoffice Portable</h3></div>
+            <div class="office2"><h3>Opera Portable</h3></div>
+            <div class="office1">  <img style= height:200px, height=100px, src=../Imagenes/libre.png > </img></div>
+            <div class="office2"><img style= height:200px, height=100px, src=../Imagenes/opera1.jpg > </img> </div>
+            <hr>
+            <div class="office1">•Wine configurado</div>
+            <div class="office2">•512M de memoria RAM  </div>
+            <hr>
+            <div class="office1">•Memoria USB con al menos 1 GB de espacio libre</div>
+            <div class="office2">•Memoria USB con al menos 1 GB de espacio libre </div>
+            <hr>
+            <div class="office1">• Win7 x32, Windows 10, Windows 8, WinXP, Win7 x64,Ubuntu 20.04(32/64)</div>
+            <div class="office2">• Win7 x32, Windows 10, Windows 8, WinXP, Win7 x64, Windows 10</div>
+        </div>
+        
+    </div>
+  
+    <article id="opera">
+        <iframe  style="width:100%;height: 565px; border:none"src="opera.html"></iframe>
+    </article>
+    <article id="portablelibre">
+        <iframe  style="width:100%;height:565px; border:none" src="portablelibre.html"></iframe>
+    </article> 
+      </section>
+    
+
+
+
+</body>
+</html>
