@@ -28,14 +28,14 @@
 
 	<entry>
 		<id>https://github.com/Jmmonot2011/proyectofhw/edit/main/pages/ofimática.html</id>
-		<title>Aplicaciones Ofimática</title>
+		<title>Word</title>
 		<update>2021-02-12T18:30:00+01:00</update>
 		<author>
 			<name>Jorge Montes</name>
 			<email>mootjo_aliesma20@iesmedinaazahara.es</email>
 		</author>
-		<summary> En este artículo cutre encontraras información sobre Ofimática</summary>
-		<link rel="alternate" href="https://github.com/Jmmonot2011/proyectofhw/edit/main/pages/ofimática.html"></link>
+		<summary> En este artículo cutre encontraras información sobre word</summary>
+		<link rel="alternate" href=https://jmmonot2011.github.io/proyectofhw/pages/word.html></link>
 	</entry>
 
 </feed>
