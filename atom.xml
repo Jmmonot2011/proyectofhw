@@ -27,17 +27,7 @@
 
 <!--Ofomatica-->
 	
-	<entry>
-		<id>https://github.com/Jmmonot2011/proyectofhw/edit/main/pages/word.html</id>
-		<title>Word</title>
-		<update>2021-02-12T18:30:00+01:00</update>
-		<author>
-			<name>Jorge Montes</name>
-			<email>mootjo_aliesma20@iesmedinaazahara.es</email>
-		</author>
-		<summary> En este artículo cutre encontraras información sobre word</summary>
-		<link rel="alternate">https://jmmonot2011.github.io/proyectofhw/pages/word.html</link>
-	</entry>
+
 	
 	<entry>
 		<id>https://github.com/Jmmonot2011/proyectofhw/edit/main/pages/libreoffice.html</id>
@@ -49,6 +39,18 @@
 		</author>
 		<summary> En este artículo cutre encontraras información sobre LibreOffice</summary>
 		<link rel="alternate">https://jmmonot2011.github.io/proyectofhw/pages/Libreoffice.html</link>
+	</entry>
+	
+	<entry>
+		<id>https://github.com/Jmmonot2011/proyectofhw/edit/main/pages/word.html</id>
+		<title>Word</title>
+		<update>2021-02-12T18:30:00+01:00</update>
+		<author>
+			<name>Jorge Montes</name>
+			<email>mootjo_aliesma20@iesmedinaazahara.es</email>
+		</author>
+		<summary> En este artículo cutre encontraras información sobre word</summary>
+		<link rel="alternate">https://jmmonot2011.github.io/proyectofhw/pages/word.html</link>
 	</entry>
 <!--Seguridad-->
 	<entry>
