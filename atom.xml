@@ -28,7 +28,7 @@
 <!--Ofomatica-->
 	
 	<entry>
-		<id>https://github.com/Jmmonot2011/proyectofhw/edit/main/pages/ofimática.html</id>
+		<id>https://github.com/Jmmonot2011/proyectofhw/edit/main/pages/word.html</id>
 		<title>Word</title>
 		<update>2021-02-12T18:30:00+01:00</update>
 		<author>
@@ -40,7 +40,7 @@
 	</entry>
 	
 	<entry>
-		<id>https://github.com/Jmmonot2011/proyectofhw/edit/main/pages/ofimática.html</id>
+		<id>https://github.com/Jmmonot2011/proyectofhw/edit/main/pages/libreoffice.html</id>
 		<title>LibreOffice</title>
 		<update>2022-01-03T18:30:00+01:00</update>
 		<author>
@@ -52,7 +52,7 @@
 	</entry>
 <!--Seguridad-->
 	<entry>
-		<id>https://github.com/Jmmonot2011/proyectofhw/edit/main/pages/seguridad.html</id>
+		<id>https://github.com/Jmmonot2011/proyectofhw/edit/main/pages/avg.html</id>
 		<title>AVG Antivirus</title>
 		<update>2022-01-03T18:30:00+01:00</update>
 		<author>
@@ -63,7 +63,7 @@
 		<link rel="alternate">https://jmmonot2011.github.io/proyectofhw/pages/avg.html</link>
 	</entry>
 	<entry>
-		<id>https://github.com/Jmmonot2011/proyectofhw/edit/main/pages/seguridad.html</id>
+		<id>https://github.com/Jmmonot2011/proyectofhw/edit/main/pages/avira.html</id>
 		<title>Avira</title>
 		<update>2022-01-03T18:30:00+01:00</update>
 		<author>
@@ -74,7 +74,7 @@
 		<link rel="alternate">https://jmmonot2011.github.io/proyectofhw/pages/avira.html</link>
 	</entry>
 	<entry>
-		<id>https://github.com/Jmmonot2011/proyectofhw/edit/main/pages/seguridad.html</id>
+		<id>https://github.com/Jmmonot2011/proyectofhw/edit/main/pages/clamav.html</id>
 		<title>ClamAv</title>
 		<update>2022-01-03T18:30:00+01:00</update>
 		<author>
@@ -86,7 +86,7 @@
 	</entry>
 <!--Recuperacion-->
 	<entry>
-		<id>https://github.com/Jmmonot2011/proyectofhw/edit/main/pages/recuperación.html</id>
+		<id>https://github.com/Jmmonot2011/proyectofhw/edit/main/pages/diskdrill.html</id>
 		<title>DiskDrill</title>
 		<update>2022-01-03T18:30:00+01:00</update>
 		<author>
@@ -97,7 +97,7 @@
 		<link rel="alternate">https://jmmonot2011.github.io/proyectofhw/pages/diskdrill.html</link>
 	</entry>
 	<entry>
-		<id>https://github.com/Jmmonot2011/proyectofhw/edit/main/pages/recuperación.html</id>
+		<id>https://github.com/Jmmonot2011/proyectofhw/edit/main/pages/testdisk.html</id>
 		<title>TestDisk</title>
 		<update>2022-01-03T18:30:00+01:00</update>
 		<author>
@@ -109,7 +109,7 @@
 	</entry>
 <!--Portable-->
 	<entry>
-		<id>https://github.com/Jmmonot2011/proyectofhw/edit/main/pages/portable.html</id>
+		<id>https://github.com/Jmmonot2011/proyectofhw/edit/main/pages/operaportable.html</id>
 		<title>Opera Portable</title>
 		<update>2022-01-03T18:30:00+01:00</update>
 		<author>
@@ -120,7 +120,7 @@
 		<link rel="alternate">https://jmmonot2011.github.io/proyectofhw/pages/opera.html</link>
 	</entry>
 	<entry>
-		<id>https://github.com/Jmmonot2011/proyectofhw/edit/main/pages/portable.html</id>
+		<id>https://github.com/Jmmonot2011/proyectofhw/edit/main/pages/portablelibre.html</id>
 		<title>LibreOffice Portable</title>
 		<update>2022-01-03T18:30:00+01:00</update>
 		<author>
