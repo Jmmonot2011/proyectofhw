@@ -132,7 +132,31 @@
 		<summary> En este artículo cutre encontraras información sobre LibreOffice Portable</summary>
 		<link rel="alternate">https://jmmonot2011.github.io/proyectofhw/pages/portablelibre.html</link>
 	</entry>
+	
 <!-- Clonezilla -->
+	
+	<entry>
+		<id>https://github.com/Jmmonot2011/proyectofhw/edit/main/pages/clonezillalocal.html</id>
+		<title>clonezilla local</title>
+		<update>2022-01-03T18:30:00+01:00</update>
+		<author>
+			<name>Jorge Montes</name>
+			<email>mootjo_aliesma20@iesmedinaazahara.es</email>
+		</author>
+		<summary> En este articulo encontraras información sobre la creación de imágenes en local</summary>
+		<link rel="alternate">https://jmmonot2011.github.io/proyectofhw/pages/clonezilla1.html</link>
+	</entry>
+	<entry>
+		<id>https://github.com/Jmmonot2011/proyectofhw/edit/main/pages/clonezillaremoto.html</id>
+		<title>clonezilla remoto</title>
+		<update>2022-01-03T18:30:00+01:00</update>
+		<author>
+			<name>Jorge Montes</name>
+			<email>mootjo_aliesma20@iesmedinaazahara.es</email>
+		</author>
+		<summary> En este artículo cutre encontraras información sobre creación de imágenes en remoto</summary>
+		<link rel="alternate">https://jmmonot2011.github.io/proyectofhw/pages/clonezilla2.html</link>
+	</entry>
 	
 	
 </feed>
