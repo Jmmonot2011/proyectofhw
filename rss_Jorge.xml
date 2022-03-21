@@ -120,7 +120,27 @@
 			<pubDate>Mon, 01 Mar 2022 18:00:00 +0100</pubDate>
 		</item>
 		
-		<!-- Clonezilla -->		
+		<!-- Clonezilla -->	
+		<item>
+			<title>Clonezilla Local</title>
+			<description>En este artículo encontrará información sobre la creación de imagenes en local</description>
+			<link>https://jmmonot2011.github.io/proyectofhw/pages/clonezilla1.html</link>
+			<author>jmmonot2011@gmail.com</author>
+			<category>Portable</category>
+			<enclosure url="https://youtu.be/VupykmeN-xM"
+				type="video" length="32572719"/>
+			<pubDate>Mon, 01 Mar 2022 17:58:00 +0100</pubDate>
+		</item>
+		<item>
+			<title>Clonezilla Portable</title>
+			<description>En este artículo encontrará información sobre la creación de imágenes en remoto</description>
+			<link>https://jmmonot2011.github.io/proyectofhw/pages/clonezilla2.html</link>
+			<author>jmmonot2011@gmail.com</author>
+			<category>Portable</category>
+			<enclosure url="https://youtu.be/VupykmeN-xM"
+				type="video" length="32572719"/>
+			<pubDate>Mon, 01 Mar 2022 18:00:00 +0100</pubDate>
+		</item>
 	
 	</channel>
 </rss>
